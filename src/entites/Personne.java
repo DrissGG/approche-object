@@ -18,9 +18,29 @@ public class Personne {
 		adressepostale = adressepostale2;		
 	}
 	
-	@Override
-	public String toString() {
-		return "Personne [nom=" + nom + ", prenom=" + prenom + ", adressepostale=" + adressepostale + "]";
+	public String getNom() {
+		 return this.nom;
 	}
+	
+	public String getPrenom() {
+		 return prenom.toUpperCase();
+	}
+	public AdressePostale getAdresse() {
+		 return this.adressepostale;
+	}
+	
+	public void setPrenom(String nvPrenom) {
+		 prenom = nvPrenom;
+	}
+	
+	public void setAdress(AdressePostale nvAdress) {
+		adressepostale = nvAdress;
+	}
+	
+	
+//	@Override
+//	public String toString() {
+//		return "Personne [nom=" + nom + ", prenom=" + prenom + ", adressepostale=" + adressepostale + "]";
+//	}
 
 }
