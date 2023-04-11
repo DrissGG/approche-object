@@ -8,6 +8,9 @@ public class Compte {
 		 numéroCompte = numéroCompte1;
 		 soldeCompte = soldeCompte1;
 	 }
+	 public String getNumeroCompte() {
+	        return numéroCompte;
+	    }
 
 	@Override
 	public String toString() {
