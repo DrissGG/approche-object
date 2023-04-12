@@ -8,6 +8,17 @@ public class TestBanque {
 		Compte moncompte =  new Compte("343", 23.3444);
 		System.out.println(moncompte.toString());
 		
+		
+		Compte compteNormal = new Compte("N°22", 3422.232);
+		CompteTaux compteTaux = new CompteTaux("N°19", 23.8, 11.3);
+		
+		Compte tabCompte[] = {compteNormal,compteTaux};
+		
+		for(int i=0; i<2; i++){
+			System.out.println(tabCompte[i]);
+		}
+		
+		
 
 	}
 
