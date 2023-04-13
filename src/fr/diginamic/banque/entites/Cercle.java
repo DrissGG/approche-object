@@ -14,9 +14,22 @@ public class Cercle implements ObjetGeometrique{
 	public double surface() {
 		return Math.PI*rayon*rayon;
 	}
+	
+	public double getPerimetre() {
+		return perimetre();
+	}
+	public double getSurface() {
+		return surface();
+	}
 
 	@Override
 	public String toString() {
 		return "Cercle [rayon=" + rayon + "]";
 	}
+
+	public double getRayon() {
+		return rayon;
+	}
+
+	
 }

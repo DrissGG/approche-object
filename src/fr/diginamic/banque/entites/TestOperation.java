@@ -16,7 +16,7 @@ public class TestOperation {
 		
 		for(Operation op : tabOperation) {
 			
-			if(op.getType() == "CREDIT") {
+			if(op.getType().equals("CREDIT")) {
 				 montant += op.getMontantOpération();
 			}else {
 				montant -= op.getMontantOpération();
