@@ -1,5 +1,6 @@
-package fr.diginamic.banque.entites;
+package utils;
 import fr.diginamic.banque.entites.*;
+import utils.CercleFactory;
 
 public class TestCercle {
 
