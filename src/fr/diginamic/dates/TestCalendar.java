@@ -29,6 +29,7 @@ public class TestCalendar {
 		
 		SimpleDateFormat formatChinois = new SimpleDateFormat("EEEEE dd MMMMM yyyy", Locale.CHINA);		
 		System.out.println("date en Chinois : "+ formatChinois.format(date));
+		
 	}
 
 }
