@@ -30,6 +30,10 @@ public class TestCalendar {
 		SimpleDateFormat formatChinois = new SimpleDateFormat("EEEEE dd MMMMM yyyy", Locale.CHINA);		
 		System.out.println("date en Chinois : "+ formatChinois.format(date));
 		
+		SimpleDateFormat formatAllemand = new SimpleDateFormat("EEEEE dd MMMMM yyyy", Locale.GERMAN);		
+		System.out.println("date en Allemand : "+ formatAllemand.format(date));
+		
+		
 	}
 
 }
