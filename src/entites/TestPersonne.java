@@ -14,11 +14,7 @@ public class TestPersonne {
 		
 		System.out.println(person1.getNom());
 		System.out.println(person1.getPrenom());
-		System.out.println(person1.getAdresse());
-		
-		
-		
-		
+		System.out.println(person1.getAdresse());		
 		
 
 	}

@@ -9,8 +9,7 @@ public class Personne {
 	Personne(String nom1, String prenom1){
 		nom = nom1;
 		prenom = prenom1;
-		
-	}
+		}
 	
 	Personne(String nom2, String prenom2, AdressePostale adressepostale2){
 		nom = nom2;

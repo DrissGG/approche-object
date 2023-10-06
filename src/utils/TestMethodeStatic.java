@@ -13,6 +13,7 @@ public class TestMethodeStatic {
 		int a = 23;
 		int b = 4;
 		int max = Integer.max(a, b);
+		
 
         System.out.println("Le nombre maximum entre " + a + " et " + b + " est " + max);
 		
