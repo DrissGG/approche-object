@@ -20,8 +20,7 @@ public class TestOperation {
 				 montant += op.getMontantOpération();
 			}else {
 				montant -= op.getMontantOpération();
-			}
-			
+			}			
 			System.out.println(op);
 			
 		}

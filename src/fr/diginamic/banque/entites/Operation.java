@@ -21,11 +21,13 @@ public abstract class Operation {
 
 	public double getMontantOpération() {
 		return montantOpération;
+		
 	}
 
 	public void setMontantOpération(double montantOpération) {
 		this.montantOpération = montantOpération;
 	}
+	
 	public abstract String getType();
 	@Override
 	public String toString() {

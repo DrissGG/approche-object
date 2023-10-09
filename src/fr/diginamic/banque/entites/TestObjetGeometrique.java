@@ -7,6 +7,7 @@ public class TestObjetGeometrique {
 		// TODO Auto-generated method stub
 		
 		Cercle cercle = new Cercle(3.7);
+		
 		Rectangle rectangle = new Rectangle(7, 3.8);
 		
 		ObjetGeometrique tableauObjet[] = {cercle, rectangle};
