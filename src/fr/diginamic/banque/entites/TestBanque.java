@@ -6,7 +6,7 @@ public class TestBanque {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Compte moncompte =  new Compte("343", 23.3444);
-		System.out.println(moncompte.toString());
+		System.out.println(moncompte);
 		
 		
 		Compte compteNormal = new Compte("N°22", 3422.232);
@@ -16,9 +16,7 @@ public class TestBanque {
 		
 		for(int i=0; i<2; i++){
 			System.out.println(tabCompte[i]);
-		}
-		
-		
+		}		
 
 	}
 
