@@ -7,6 +7,7 @@ public class TestOperations {
 		// TODO Auto-generated method stub
 		Operations test1 = new Operations();
 		
+		
 		System.out.println("a + b = " + test1.calcul(4, 2, '+'));
 		System.out.println("a - b = " + test1.calcul(4, 2, '-'));
 		System.out.println("a * b = " + test1.calcul(4, 2, '*'));
