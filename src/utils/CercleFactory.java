@@ -5,5 +5,6 @@ public class CercleFactory {
 	
 	public static Cercle createdCercle(double rayon) {
 		return new Cercle(rayon);
+		
 	}
 }

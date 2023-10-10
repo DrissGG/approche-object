@@ -7,6 +7,7 @@ public class TestCercle {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Cercle cercle1 = new Cercle(3);
+		
 		Cercle cercle2 = new Cercle(8.6);
 		
 		System.out.println("Perimetre : " + cercle1.getPerimetre() + " Surface : " + cercle1.getSurface());
