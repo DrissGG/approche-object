@@ -9,6 +9,7 @@ public class TestListeString {
 		// TODO Auto-generated method stub
 		ArrayList<String> listeVille = new ArrayList<>();
 		listeVille.add("Nice");
+		
 		listeVille.add("Carcassonne");
 		listeVille.add("Narbonne");
 		listeVille.add("Lyon");

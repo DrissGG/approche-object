@@ -16,6 +16,7 @@ public class TestListeInt {
 		listeEntiers.add(8);
 		listeEntiers.add(5);
 		
+		
 		for(int entier : listeEntiers) {
 			System.out.println(entier); // Affichez tous les éléments de la liste			
 		}

@@ -10,6 +10,7 @@ public class FusionListe {
 		liste1.add("Vert");
 		liste1.add("Orange");
 		
+		
 		ArrayList<String> liste2 = new ArrayList<String>();
 		liste2.add("Blanc");
 		liste2.add("Bleu");
