@@ -4,7 +4,7 @@ import java.util.*;
 public class FusionMap {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		// Création map1
 		HashMap<Integer, String> map1 = new HashMap<Integer, String>();

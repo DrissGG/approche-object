@@ -7,7 +7,6 @@ import fichier.*;
 public class MapVilles {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Ville city1 = new Ville("Marseille", "13", "Bouches-du-Rhône", 344.000);
 		Ville city2 = new Ville("Montpellier", "34", "Occitanie", 244.000);

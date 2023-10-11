@@ -16,6 +16,7 @@ public class Pays {
 	public Integer getNombreHabitants() {
 		return nombreHabitants;
 	}
+	
 	public String getContinent() {
 		return continent;
 	}

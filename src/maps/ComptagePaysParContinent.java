@@ -26,6 +26,7 @@ public class ComptagePaysParContinent {
 			
 			if(cpt == null) {
 				cpt = 1;
+				
 			}
 			else {
 				cpt++;

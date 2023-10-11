@@ -7,6 +7,7 @@ public class CreationEtManipulationMap {
 		// TODO Auto-generated method stub
 		HashMap<Integer, String> mapVilles = new HashMap<>();
 		mapVilles.put(13, "Marseille");
+		
 		mapVilles.put(34, "Montpellier");
 		mapVilles.put(44, "Nantes");
 		mapVilles.put(75, "Paris");
