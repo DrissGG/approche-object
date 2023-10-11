@@ -4,7 +4,7 @@ import java.util.*;
 public class CreationMap {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		HashMap<String, Integer>mapSalaires = new HashMap<>();
 		mapSalaires.put("Paul", 1750);
 		

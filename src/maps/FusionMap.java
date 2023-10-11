@@ -5,7 +5,6 @@ public class FusionMap {
 
 	public static void main(String[] args) {
 		
-		
 		// Création map1
 		HashMap<Integer, String> map1 = new HashMap<Integer, String>();
 		map1.put(1, "Rouge");

@@ -6,7 +6,6 @@ import java.util.HashMap;
 public class ComptagePaysParContinent {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		ArrayList<Pays> listePays = new ArrayList<>();
 		listePays.add(new Pays("France",65000000, "Europe"));
