@@ -10,10 +10,10 @@ public class Ville implements Comparable<Ville>{
 	private Integer nbHabitants;
 	private Continent continent;
 	
-	public Ville(String nom, Integer nbHabitants, Continent continent) {
+	public Ville(String nom, Integer nbHabitants) {
 		this.nom = nom;
 		this.nbHabitants = nbHabitants;
-		this.continent = continent;
+//		this.continent = continent;
 	}
 	  
 	public String getNom() {
@@ -39,8 +39,7 @@ public class Ville implements Comparable<Ville>{
 
 	@Override
 	public String toString() {
-		return "Ville [nom=" + nom + ", nbHabitants=" + nbHabitants + ", nbHabitants=" + nbHabitants 
-				+", Continent" + " - " + continent.getLibelle()+ "]";
+		return "Ville [nom=" + nom + ", nbHabitants=" + nbHabitants +"]";
 	}
 	public boolean equals(Object object) {
 		if (!(object instanceof Ville)) {

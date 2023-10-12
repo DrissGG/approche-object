@@ -18,10 +18,11 @@ public class TestVille {
 		listeVille.add(new Ville("Marseille",850700));
 		listeVille.add(new Ville("Tarbes",40600));
 		
-//		Collections.sort(listeVille);
+		Collections.sort(listeVille);
 		
 		System.out.println(listeVille);
 		
+		System.out.println("#### COMPARAISON Habitant ######");
 		ComparatorHabitant hab = new ComparatorHabitant();
 		Collections.sort(listeVille, hab);	
 		System.out.println(listeVille);
