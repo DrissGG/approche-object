@@ -19,6 +19,7 @@ public class LectureFichier {
 		
 		System.out.println(lines);
 		
+		
 		ArrayList<Ville> villesDePlusDe25000Habitants = new ArrayList<>() ; 
 		
 		for(int i=1; i<lines.size(); i++) {

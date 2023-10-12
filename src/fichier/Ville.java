@@ -8,6 +8,7 @@ public class Ville {
 	
 	public Ville(String name, String codeDepartement, String nameRegion, Double populationTotale) {
 		super();
+		
 		this.name = name;
 		this.codeDepartement = codeDepartement;
 		this.nameRegion = nameRegion;

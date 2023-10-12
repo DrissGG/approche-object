@@ -16,7 +16,7 @@ public class CreerFichier {
 		Path pathFile = Paths.get("C:/Users/driss/Documents/recensement.csv"); // emplacement du fichier 
 		List<String> lines = Files.readAllLines(pathFile, StandardCharsets.UTF_8);
 		
-		for(int i=0;i<100; i++) {
+		for(int i=1;i<100; i++) {
 			System.out.println(lines.get(i));			
 		}
 		
