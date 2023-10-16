@@ -1,6 +1,5 @@
 package maps;
 import java.util.*;
-import fichier.Ville;
 
 import fichier.*;
 
