@@ -12,6 +12,7 @@ public class TestEquals {
 		System.out.println(v1.equals(v2));
 		System.out.println(v1.equals(v3));
 		
+		
 		System.out.println("### Test == ###");
 		System.out.println(v1==(v2));
 		Ville v4 = v2;
