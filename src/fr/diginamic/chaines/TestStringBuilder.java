@@ -9,7 +9,7 @@ public class TestStringBuilder {
 		long debut = System.currentTimeMillis();
 		
 		 for (int i = 1; i <= 100000; i++) {
-			 build.append(i); 
+			 build.append(i).append(";"); 
 		    
 	        }
 		 // Code à chronométrer
