@@ -24,6 +24,7 @@ public class TestCalendar {
 		SimpleDateFormat formatFr = new SimpleDateFormat("EEEEE dd MMMMM yyyy", Locale.FRANCE);
 		System.out.println("date en FR  : "+ formatFr.format(date));
 		
+		
 		SimpleDateFormat formatRusse = new SimpleDateFormat("EEEEE dd MMMMM yyyy", new Locale("ru"));		
 		System.out.println("date en Russe : "+ formatRusse.format(date));
 		

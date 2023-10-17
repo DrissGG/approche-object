@@ -16,6 +16,7 @@ public class TestDates {
 		System.out.println("Date spécifiée : " + formateur1.format(date1));
 
 		Date date3 = new Date();
+		
 		System.out.println("Date du systeme : " +(formateur1.format(date3)));
 	}
 
