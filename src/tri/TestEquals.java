@@ -8,6 +8,15 @@ public class TestEquals {
 		Ville v2 = new Ville("Marseille",850700);
 		Ville v3 = new Ville("Nice", 343000);
 		
+		@Override
+		public boolean equals(Object object) {
+		if (!(object instanceof Ville)) {
+		return false;
+		}
+		Ville other = (Ville) object;
+		return nom.equals(other.getNom());
+		}
+		
 		System.out.println("### Test equals ###");
 		System.out.println(v1.equals(v2));
 		System.out.println(v1.equals(v3));

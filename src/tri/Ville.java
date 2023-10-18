@@ -1,9 +1,5 @@
 package tri;
 
-
-import java.util.ArrayList;
-import java.util.Iterator;
-
 public class Ville implements Comparable<Ville>{
 	
 	private String nom;
@@ -16,18 +12,7 @@ public class Ville implements Comparable<Ville>{
 //		this.continent = continent;
 	}
 	  
-	public String getNom() {
-		return nom;
-	}
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-	public Integer getNbHabitants() {
-		return nbHabitants;
-	}
-	public void setNbHabitants(Integer nbHabitants) {
-		this.nbHabitants = nbHabitants;
-	}
+	
 
 	@Override
 	public int compareTo(Ville o) {
@@ -47,11 +32,56 @@ public class Ville implements Comparable<Ville>{
 			}
 			Ville other = (Ville) object;
 			return nom.equals(other.getNom());
-
 	}
+	
 
 	public Continent getContinent() {
 		return continent;
+	}
+
+
+
+	/** Getters
+	 * @return the nom
+	 */
+	public String getNom() {
+		return nom;
+	}
+
+
+
+	/** Setters
+	 * @param nom the nom to set
+	 */
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+
+
+	/** Getters
+	 * @return the nbHabitants
+	 */
+	public Integer getNbHabitants() {
+		return nbHabitants;
+	}
+
+
+
+	/** Setters
+	 * @param nbHabitants the nbHabitants to set
+	 */
+	public void setNbHabitants(Integer nbHabitants) {
+		this.nbHabitants = nbHabitants;
+	}
+
+
+
+	/** Setters
+	 * @param continent the continent to set
+	 */
+	public void setContinent(Continent continent) {
+		this.continent = continent;
 	}
 	
 	
